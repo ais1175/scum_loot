@@ -1,4 +1,4 @@
-## SCUM Loot Modification
+## SCUM Loot Modification 
 
 สำหรับการตั้งค่า อาจจะใช้ถึง 4 Part ดังนี้ [`Items`](#items) / [`Nodes`](#nodes) / [`Spawners`](#spawners) / [`GeneralZoneModifiers`](#generalzonemodifiersjson)
 ```js
