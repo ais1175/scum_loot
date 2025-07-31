@@ -1,6 +1,6 @@
 # SCUM Admin Settings
 
-
+อ่านใน loot
 
 ## SCUM Trader Configurator
 File are in `EconomyOverride.json`
