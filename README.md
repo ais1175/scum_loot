@@ -1,6 +1,6 @@
 # SCUM Admin Settings
 
-อ่านใน [loot][https://github.com/ais1175/scum_loot/edit/main/Loot/README.md]
+อ่านใน [loot] [https://github.com/ais1175/scum_loot/edit/main/Loot/README.md]
 
 ## SCUM Trader Configurator
 File are in `EconomyOverride.json`
