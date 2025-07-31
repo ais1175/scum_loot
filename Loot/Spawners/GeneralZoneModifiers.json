@@ -1,0 +1,24 @@
+{
+	"Modifiers": [
+		{
+			"Zones": [ 					// Zone พิกัดซ้ายบน-ขวาล่าง
+				{
+					"Name": "FishFactory", 		// ตั้งชื่ออะไรก็ได้
+					"TopLeft": "X=-327211.8142 Y=-346843.5702",
+					"BottomRight": "X=-363868.8911 Y=-383500.647"
+				}
+			],
+			"SpawnerProbabilityMultiplier": 100, 		// Rate Drop พื้น
+			"ExamineSpawnerProbabilityMultiplier": 100, 	// Rate Drop ค้น
+			"ExamineSpawnerQuantityMultiplier": 5 		// Rate จำนวน ค้น
+		},
+		{
+			"Zones": [ 					// Zone Sector
+				{
+					"Sector": "A1"
+				}
+			],
+			"ExamineSpawnerQuantityMultiplier": 5
+		}
+	]
+}

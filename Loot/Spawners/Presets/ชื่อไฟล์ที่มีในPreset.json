@@ -1,0 +1,12 @@
+{
+	"Subpresets": [
+		{
+			"Rarity": "Uncommon",
+			"Id": "Special_Packages-Vault-Examine_AWP_Vault_Pack"
+		},
+		{
+			"Rarity": "Uncommon",
+			"Id": "Special_Packages-Vault-Examine_AWP_Ammo_Vault_Pack"
+		}
+	]
+}

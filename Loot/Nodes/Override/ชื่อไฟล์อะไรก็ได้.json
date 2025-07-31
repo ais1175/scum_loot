@@ -1,0 +1,27 @@
+{
+	"Name": "ItemLootTreeNodes",
+	"Children": [                                    
+		{
+			"Name": "Trash",
+			"ChildrenMergeMode": "Replace",         // เลือกวิธีตั้งค่า Replace คือวางทับ UpdateOrAddคือรวม
+			"Children": [                           // แบ่ง Set ตามรายละเอียด
+				{
+					"Name": "Drinks",
+					"Rarity": "Abundant",
+					"Children": [
+						{
+							"Name": "PETBottle01",
+							"Rarity": "Abundant", 	// ระดับความหายาก
+							"Variations": [ 	// สุ่ม Spawn ของตามนี้ด้วย
+				 				"PETBottle02",
+ 								"PETBottle03",
+ 								"PETBottle04"
+ 							],
+							"PostSpawnActions": []  // ตั้งค่าสภาพดรอป
+						}
+					]
+				}
+			]
+		}
+	]
+}

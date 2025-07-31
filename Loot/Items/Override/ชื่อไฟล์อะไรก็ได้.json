@@ -1,0 +1,23 @@
+{
+	"Parameters": [
+		{
+			"Id": "Weapon_M82A1",
+			"IsDisabledForSpawning": false,			// ปิดการ Spawn
+			"AllowedLocations": [                           // เลือกพื้นที่ที่ดรอป
+				"Coastal", 				// - ชายหาด
+				"Continental", 				// - พื้นดิน
+				"Mountain" 				// - ภูเขา
+			],
+			"CooldownPerSquadMemberMin": 0, 		// 1Squad จะไม่เจอไอเทมนี้อีกเลย (Min~Max)*members ชั่วโมง
+			"CooldownPerSquadMemberMax": 0,
+			"Variations": [ 				// สุ่ม Spawn ของตามนี้ด้วย
+				"Weapon_M82A1_Black",
+				"Weapon_M82A1_Desert",
+				"Weapon_M82A1_Snow"
+			],
+			"ShouldOverrideInitialAndRandomUsage": false, 	// เปิดการตั้งค่าด้านล่างทับ Presets
+			"InitialUsageOverride": 0, 			// หัก ขาร์จไอเทม ค่าคงตัว
+			"RandomUsageOverrideUsage": 0 			// หัก ขาร์จไอเทม ค่าสุ่มจาก 0
+		}
+    ]
+}
