@@ -1,10 +1,6 @@
 # SCUM Admin Settings
 
-การตั้งค่าสำหรับ [HAPPY LAND PvE 100%](https://discord.gg/KwXqDWx4W4)
 
-## SCUM Loot Modification
-
-อ่านเพิ่มเติม [ที่นี่](https://github.com/limitbrk/happy-land-scum-config/tree/master/Loot/README.md)
 
 ## SCUM Trader Configurator
 File are in `EconomyOverride.json`
